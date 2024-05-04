@@ -1,0 +1,18 @@
+{
+    "status": "ok",
+    "totalResults": 13239,
+    "articles": [
+    {
+    "source": {
+    "id": "wired",
+    "name": "Wired"
+    },
+    "author": "Joel Khalili",
+    "title": "The Science of Crypto Forensics Survives a Court Battle—for Now",
+    "description": "A jury convicted Roman Sterlingov of money laundering this month. His defense team says it will appeal, saying the crypto-tracing technique at the heart of the case is “pseudoscience.”",
+    "url": "https://www.wired.com/story/the-science-of-crypto-forensics-court-battle/",
+    "urlToImage": "https://media.wired.com/photos/6603759fd3a75d0aa76d16ab/191:100/w_1280,c_limit/business_crypto_tracing_forensics_trial.jpg",
+    "publishedAt": "2024-03-27T11:00:00Z",
+    "content": "On March 12, Russian-Swedish national Roman Sterlingov was found guilty of money laundering conspiracy and other violations by a federal jury in Washington, DC, for having operated Bitcoin Fog, a ser… [+3654 chars]"
+    }]
+}
