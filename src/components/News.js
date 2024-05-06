@@ -22,7 +22,7 @@ export class News extends Component {
   }
 
   async componentDidMount() {
-    const url = `https://newsapi.org/v2/everything?q=${this.props.q}&language=en&apiKey=${this.props.apiKey}&page=${this.state.page}&pageSize=${this.props.pageSize}`;
+    const url = `https://newsapi.org/v2/everything?q=${this.props.q}&language=en&apiKey=52874c1a76cf47ae82cdd4108db228c8&page=${this.state.page}&pageSize=${this.props.pageSize}`;
     try {
       let data = await fetch(url);
       let parsedData = await data.json();

@@ -11,11 +11,11 @@ export class App extends Component {
         <Router>
           <Navbar />
           <Routes>
-            <Route exact path="/" element={<News apiKey={this.apiKey} key="soccer" pageSize={2}  q="soccer" />} />
-            <Route exact path="/ucl" element={<News apiKey={this.apiKey} key="UEFA champions league" pageSize={2}  q="UEFA champions league" />} />
-            <Route exact path="/epl" element={<News apiKey={this.apiKey} key="english premier league" pageSize={2}  q="english premier league" />} />
-            <Route exact path="/afc" element={<News apiKey={this.apiKey} key="asian football confederation" pageSize={2}  q="asian football confederation" />} />
-            <Route exact path="/isl" element={<News apiKey={this.apiKey} leagueKey="Indian Super League" pageSize={2}  q="Indian Super League" />} />
+            <Route exact path="/" element={<News apiKey={this.apiKey} key="soccer" pageSize={this.props.pageSize}  q="soccer" />} />
+            <Route exact path="/ucl" element={<News apiKey={this.apiKey} key="UEFA champions league" pageSize={this.props.pageSize}  q="UEFA champions league" />} />
+            <Route exact path="/epl" element={<News apiKey={this.apiKey} key="english premier league" pageSize={this.props.pageSize}  q="english premier league" />} />
+            <Route exact path="/afc" element={<News apiKey={this.apiKey} key="asian football confederation" pageSize={this.props.pageSize}  q="asian football confederation" />} />
+            <Route exact path="/isl" element={<News apiKey={this.apiKey} leagueKey="Indian Super League" pageSize={this.props.pageSize}  q="Indian Super League" />} />
 
           </Routes>
         </Router>
