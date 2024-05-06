@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/foot-scoop-app/static/css/main.e6c13ad2.css",
+    "main.js": "/foot-scoop-app/static/js/main.7f0da4dc.js",
+    "static/js/453.47d69930.chunk.js": "/foot-scoop-app/static/js/453.47d69930.chunk.js",
+    "static/media/subImage2.jpg": "/foot-scoop-app/static/media/subImage2.2079759f0b3ef39db3f7.jpg",
+    "index.html": "/foot-scoop-app/index.html",
+    "main.e6c13ad2.css.map": "/foot-scoop-app/static/css/main.e6c13ad2.css.map",
+    "main.7f0da4dc.js.map": "/foot-scoop-app/static/js/main.7f0da4dc.js.map",
+    "453.47d69930.chunk.js.map": "/foot-scoop-app/static/js/453.47d69930.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.7f0da4dc.js"
+  ]
+}
