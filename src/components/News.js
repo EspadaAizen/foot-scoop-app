@@ -2,10 +2,11 @@ import React, { Component } from "react";
 import NewsItems from "./NewsItems";
 import PropTypes from "prop-types";
 
+
 export class News extends Component {
   static defaultProps = {
     q: "UEFA champions league",
-    pageSize: 8,
+    pageSize: 50,
   };
   static propTypes = {
     q: PropTypes.string,
@@ -61,8 +62,10 @@ export class News extends Component {
                 />
               </div>
             ))}
+           
         </div>
       </div>
+      
     );
   }
   
