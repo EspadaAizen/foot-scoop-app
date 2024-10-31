@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: todo-app-backend
+    env: node
+    region: oregon
+    plan: free
+    buildCommand: cd backend && npm install
+    startCommand: cd backend && node index.js
+    envVars:
+      - key: REACT_NEWS_API
+        value: 52874c1a76cf47ae82cdd4108db228c8
+      - key: PORT
+        value: 5000
