@@ -4,7 +4,7 @@ import Navbar from './components/Navbar'
 import News from './components/News'
 
 export class App extends Component {
-  apiKey = process.env.REACT_NEWS_API
+  apiKey = process.env.RENDER_API
   render() {
     return (
       <div>
