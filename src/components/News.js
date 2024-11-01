@@ -5,7 +5,7 @@ import PropTypes from "prop-types";
 
 export class News extends Component {
   static defaultProps = {
-    q: "UEFA champions league",
+    q: "soccer",
     pageSize: 50,
   };
   static propTypes = {
@@ -23,7 +23,9 @@ export class News extends Component {
   }
 
   async componentDidMount() {
-    const url = `https://newsapi.org/v2/everything?q=${this.props.q}&language=en&apiKey=52874c1a76cf47ae82cdd4108db228c8&page=${this.state.page}&pageSize=${this.props.pageSize}`;
+    const RE_API_URI= process.env.RENDER_API;
+    const REACT_NEWS_API = process.env.REACT_NEWS_API
+    const url = `https://foot-scoop-app.onrender.com/api/news?q=${this.props.q}&language=en&apiKey=${REACT_NEWS_API}&page=${this.state.page}&pageSize=${this.props.pageSize}`;
     try {
       let data = await fetch(url);
       let parsedData = await data.json();

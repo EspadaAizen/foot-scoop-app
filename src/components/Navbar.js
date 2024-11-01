@@ -44,7 +44,7 @@ export default class Navbar extends Component {
                 </li>
                 <li className="nav-item">
                   <Link className="nav-link" to="/isl">
-                    ISL
+                    I.S.L
                   </Link>
                 </li>
               </ul>
